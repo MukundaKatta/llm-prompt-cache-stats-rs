@@ -1,0 +1,12 @@
+[package]
+name = "llm-prompt-cache-stats"
+version = "0.1.0"
+edition = "2021"
+description = "Track Anthropic prompt cache hit rates and savings"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/llm-prompt-cache-stats-rs"
+keywords = ["llm", "anthropic", "cache", "statistics", "cost"]
+categories = ["development-tools"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
